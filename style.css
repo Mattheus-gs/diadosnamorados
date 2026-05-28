@@ -1,0 +1,25 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{background-color: pink;}
+
+h1{
+text-align: center;
+text-decoration: underline rgb(201, 46, 46);
+color: rgb(199, 64, 64);
+}
+
+#fazOL{
+  width: 300px;
+  height: auto; 
+}
+
+#seupai{
+    width: 390px; /* Define a largura exata */
+  height: auto;
+}
+
