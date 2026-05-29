@@ -8,7 +8,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 body{background-color: pink;}
 
 h1{
-text-align: center;
+text-align: left;
 text-decoration: underline rgb(201, 46, 46);
 color: rgb(199, 64, 64);
 }
@@ -19,7 +19,39 @@ color: rgb(199, 64, 64);
 }
 
 #seupai{
-    width: 390px; /* Define a largura exata */
+   width: 390px;
   height: auto;
+}
+header{
+    background-color: rgb(46, 33, 33);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+nav .logo{
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+   gap: 20px;
+}
+nav ul a{
+    color: rgb(199, 64, 64);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
 }
 
